@@ -1,7 +1,10 @@
-🌟 AIExpensePlanner (SwiftUI)
+💰 AIExpensePlanner (SwiftUI)
+-------------------
+
 This project is a SwiftUI-based iOS application designed to help users manage their personal finances by tracking income and expenses, visualizing spending patterns, and receiving AI-powered budget tips via the Gemini API. With a clean and intuitive interface, it empowers users to make informed financial decisions.
 
 ✨ Features
+-------------------
 
 📊 Dashboard Overview: View total income and expenses in sleek summary cards.
 🥧 Expense Distribution: Visualize spending by category with an interactive pie chart.
@@ -13,6 +16,7 @@ This project is a SwiftUI-based iOS application designed to help users manage th
 
 
 🛠 Tech Stack
+-------------------
 
 SwiftUI: Modern, declarative UI framework for building the interface.
 Foundation: Handles data encoding, networking, and UserDefaults persistence.
@@ -21,6 +25,7 @@ Combine: Manages asynchronous API calls and state updates (planned for future en
 
 
 🚀 Getting Started
+-------------------
 
 Clone the Repository:
 git clone https://github.com/PSSPL-Mobile/AI-Expense-Planner
@@ -49,6 +54,7 @@ Press Cmd + R to build and run the app.
 
 
 📦 Requirements & Setup Notes
+-------------------
 
 iOS Version: iOS 15.0 or later.
 
@@ -63,6 +69,7 @@ Gemini API Setup:Ensure the API key is correctly configured in Constants.swift. 
 
 
 📖 Usage
+-------------------
 
 Dashboard:
 
@@ -90,6 +97,10 @@ Entries display date, category, description, and amount (green for income, red f
 
 
 🖼️ Screenshots
-Dashboard showing summary cards, pie chart, and budget tips.
-Form for adding income or expense entries.
-List of all financial transactions.
+-------------------
+<p align="left">
+  <img src="AIExpensePlanner/ScreenShots/dashboard.png" width="30%" />
+  <img src="AIExpensePlanner/ScreenShots/addIncome.png" width="30%" />
+  <img src="AIExpensePlanner/ScreenShots/addExpanse.png" width="30%" />
+  <img src="AIExpensePlanner/ScreenShots/history.png" width="30%" />
+</p>
